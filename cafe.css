@@ -1,7 +1,6 @@
 * {
 	margin: 0;
 	padding: 0;
-	overflow-x: hidden;
 }
 nav {
 	background-color: black;
@@ -10,6 +9,7 @@ nav {
 	align-items: center;
 	padding: 20px;
 }
+
 .logo {
 	color: white;
 	height: 50px;
@@ -135,7 +135,7 @@ nav {
 
 .form-input {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: auto auto;
 	gap: 5px;
 	padding: 5px;
 	margin: 30px;
@@ -327,3 +327,4 @@ footer a:hover {
 .footer-section h4 {
 	margin-bottom: 8px;
 }
+
